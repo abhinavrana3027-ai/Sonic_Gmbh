@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title_careers">Karriere bei Sonic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-transition"></div>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="navbar__logo">
+        <img src="Sonic Master Logo on Dark.png" alt="Sonic Logo" height="36">
+      </a>
+      <ul class="navbar__links">
+        <li><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" class="nav-link" data-i18n="nav.about">Über uns</a></li>
+        <li><a href="services.html" class="nav-link" data-i18n="nav.services">Leistungen</a></li>
+        <li><a href="careers.html" class="nav-link active" data-i18n="nav.careers">Jobs</a></li>
+        <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button data-lang="de">DE</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="careers-hero" style="background: url('Sonic Team Group Photo.png') center/cover;">
+      <div class="container">
+        <h1 data-animate data-i18n="careers.hero.title">Werde Teil der Zukunft</h1>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 data-animate data-i18n="careers.roles.title">Offene Stellen</h2>
+      <div class="kpi__grid">
+        <div class="kpi-card tilt" data-animate>
+          <h3 data-i18n="careers.roles.driver.title">E-Transporter Fahrer</h3>
+          <p data-i18n="careers.roles.driver.desc">Vollzeit, Berlin</p>
+          <a href="contact.html?subject=career" class="btn btn--primary" data-i18n="careers.roles.apply">Jetzt bewerben</a>
+        </div>
+        <div class="kpi-card tilt" data-animate>
+          <h3 data-i18n="careers.roles.courier.title">Cargo Bike Kurier</h3>
+          <p data-i18n="careers.roles.courier.desc">Teilzeit, Berlin</p>
+          <a href="contact.html?subject=career" class="btn btn--primary" data-i18n="careers.roles.apply">Jetzt bewerben</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Sonic Logistics GmbH</p>
+    </div>
+  </footer>
+</body>
+</html>
