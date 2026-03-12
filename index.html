@@ -1,5 +1,161 @@
 <!DOCTYPE html>
+<html lang="de"><!DOCTYPE html>
 <html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Logistics GmbH | Die Zukunft der Logistik</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="loading">
+    <div id="preloader"></div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">SONIC</a>
+            <div class="nav-links">
+                <a href="index.html" class="active" data-i18n="nav-home">Home</a>
+                <a href="about.html" data-i18n="nav-about">Über uns</a>
+                <a href="services.html" data-i18n="nav-services">Leistungen</a>
+                <a href="careers.html" data-i18n="nav-careers">Karriere</a>
+                <a href="contact.html" data-i18n="nav-contact">Kontakt</a>
+            </div>
+            <div class="nav-actions">
+                <button id="lang-switch">EN</button>
+                <a href="contact.html#form" class="btn-primary" data-i18n="cta-quote">Anfrage</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-fullscreen">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="Animation Version !.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay">
+                <div class="container">
+                    <h1 class="glitch reveal" data-text="Logistics Reimagined" data-i18n="hero-title">Logistik Neu Gedacht</h1>
+                    <p class="lead reveal" data-i18n="hero-subtitle">Nachhaltig. Schnell. Digital. Die Zero-Emission Flotte für Berlin.</p>
+                    <div class="hero-btns reveal">
+                        <a href="services.html" class="btn-primary magnetic" data-i18n="btn-explore">Unsere Lösungen</a>
+                        <a href="contact.html" class="btn-secondary magnetic" data-i18n="btn-contact">Partner werden</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section class="trust-bar reveal">
+            <div class="container">
+                <div class="logo-cloud">
+                    <img src="Trust & Certification Bar Background.png" alt="Trust" class="trust-bg">
+                    <div class="logos">
+                        <!-- Placeholder logos for premium feel -->
+                        <span class="trust-logo">ECOCERT</span>
+                        <span class="trust-logo">DIN ISO</span>
+                        <span class="trust-logo">TÜV SÜD</span>
+                        <span class="trust-logo">GREEN BERLIN</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="kpi-section">
+            <div class="container grid-4">
+                <div class="kpi-card reveal">
+                    <h3 class="counter" data-target="100">0</h3>
+                    <span class="unit">%</span>
+                    <p data-i18n="kpi-electric">Elektrische Flotte</p>
+                </div>
+                <div class="kpi-card reveal">
+                    <h3 class="counter" data-target="24">0</h3>
+                    <span class="unit">/7</span>
+                    <p data-i18n="kpi-support">Live Support</p>
+                </div>
+                <div class="kpi-card reveal">
+                    <h3 class="counter" data-target="50">0</h3>
+                    <span class="unit">k+</span>
+                    <p data-i18n="kpi-packages">Pakete/Monat</p>
+                </div>
+                <div class="kpi-card reveal">
+                    <h3 class="counter" data-target="0">0</h3>
+                    <span class="unit">g</span>
+                    <p data-i18n="kpi-co2">CO2-Ausstoß</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-grid">
+            <div class="container reveal">
+                <h2 class="section-title" data-i18n="features-title">Warum Sonic?</h2>
+                <div class="grid-3">
+                    <div class="feature-card magnetic">
+                        <img src="Electric Sprinter Fleet Cinematic.png" alt="Flotte" loading="lazy">
+                        <h3 data-i18n="feat-1-title">Modernste Flotte</h3>
+                        <p data-i18n="feat-1-desc">Ausschließlich elektrische Fahrzeuge von führenden Herstellern.</p>
+                    </div>
+                    <div class="feature-card magnetic">
+                        <img src="Berlin Micro-Hub Isometric Illustration.png" alt="Hubs" loading="lazy">
+                        <h3 data-i18n="feat-2-title">Micro-Hubs</h3>
+                        <p data-i18n="feat-2-desc">Zentral gelegene Hubs für ultraschnelle Zustellung im Kiez.</p>
+                    </div>
+                    <div class="feature-card magnetic">
+                        <img src="CO2 Savings HUD Card.png" alt="Digital" loading="lazy">
+                        <h3 data-i18n="feat-3-title">Echtzeit-Tracking</h3>
+                        <p data-i18n="feat-3-desc">Volle Transparenz durch unsere KI-gestützte Logistikplattform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-banner reveal">
+            <img src="Electric Warehouse Operations.png" alt="Warehouse" class="parallax-img">
+            <div class="cta-content container">
+                <h2 data-i18n="cta-home-title">Bereit für den nächsten Schritt?</h2>
+                <a href="contact.html" class="btn-primary magnetic" data-i18n="cta-home-btn">Jetzt Kontakt aufnehmen</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="container grid-4">
+            <div class="footer-brand">
+                <span class="logo">SONIC</span>
+                <p data-i18n="footer-tagline">The Pulse of Zero-Emission Logistics.</p>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer-company">Unternehmen</h4>
+                <a href="about.html" data-i18n="nav-about">Über uns</a>
+                <a href="careers.html" data-i18n="nav-careers">Karriere</a>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer-services">Leistungen</h4>
+                <a href="services.html#express" data-i18n="service-express">Express</a>
+                <a href="services.html#warehouse" data-i18n="service-warehouse">Warehousing</a>
+            </div>
+            <div class="footer-social">
+                <h4 data-i18n="footer-follow">Folgen Sie uns</h4>
+                <div class="social-icons">
+                    <a href="#" class="magnetic">LI</a>
+                    <a href="#" class="magnetic">X</a>
+                    <a href="#" class="magnetic">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sonic Logistics GmbH. <span data-i18n="all-rights">Alle Rechte vorbehalten.</span></p>
+        </div>
+    </footer>
+
+    <script src="preloader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
